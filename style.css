@@ -10,3 +10,9 @@
     height: 56px;
     width: 56px;
  }
+ .player{
+
+            display: flex;
+            text-align: center;
+
+ }

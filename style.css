@@ -1,3 +1,12 @@
+   body {
+
+
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      background-color: #9F9F9F;
+
+   }
  .players{
 
             display: grid;
@@ -14,5 +23,9 @@
 
             display: flex;
             text-align: center;
+
+ }
+ .container{
+           border-color: #ffff;
 
  }

@@ -9,12 +9,15 @@
    }
    main{
       display: flex;
-      justify-content: center;
+    align-items: center;
+      flex-direction: column;
    }
        .container {
          background-color:#FFFFFF;
          width: 870px;
          padding: 30px;
+         margin-top: 21px;
+         border-radius: 5px;
           
             
        }
@@ -93,8 +96,6 @@
 
       color: #562EFF;
       font-size: 16px;
-      font-weight: 400;
-      font-style: normal;
 
    }
    .blog-aurthor a{

@@ -132,3 +132,50 @@
             align-items: center;
             justify-content: space-between;
          }
+
+
+            
+         @media screen and (max-width:688px) {
+          
+          .container{
+
+                     width: 100%;
+
+          }  .players{
+            display: grid;         
+            grid-template-columns: repeat(1, 1fr);
+
+
+          }
+          .player{
+                     flex-direction: column;
+                     align-items: center;
+
+          }
+          
+
+          .blogs {
+
+            display: grid;
+
+            grid-template-columns: repeat(1, 1fr);
+          }
+          .blog{
+                  flex-direction: column;
+                     align-items: center;
+
+          }
+          .courses{
+
+               display: grid;
+               
+                  grid-template-columns: repeat(1, 1fr);
+          }
+
+          .course{
+                     flex-direction: column;
+                      
+
+          }
+            
+         }
